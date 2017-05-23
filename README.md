@@ -3,7 +3,25 @@
 A project to evaluate Predictive analysis on Bonita BPM process execution.
 
 ## Run the project
-gradlew bootRun
+```
+./gradlew build
+ java -jar build/libs/gs-relational-data-access-0.1.0.jar
+```
+
+```
+Command: predict
+ProcessID: 8527352381316481351
+Step Name: CDV_APPROVAL  
+```
+
+```
+Command: predict
+ProcessID: 6059774783624539279
+Step Name: Reject/Skip
+```
+
+
+
 
 ## Switch Database configuration
 There are 2 configuration available:
